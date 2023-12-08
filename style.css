@@ -4,6 +4,19 @@
     /* border: 1px solid blue; */
 }
 
+.primary{
+    color: #f52c2c;
+}
+
+.btn{
+    padding: 15px 55px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+/* Navbar */
 .nav-container{
     display: flex;
     padding: 5px;
@@ -24,6 +37,7 @@
     margin-right: 10px;
 }
 
+/* Banner */
 .banner-container{
     width: 100%;
     height: 100vh; 
@@ -50,18 +64,6 @@
     padding: 10px;
 }
 
-.primary{
-    color: #f52c2c;
-}
-
-.btn{
-    padding: 15px 55px;
-    border: none;
-    font-size: 18px;
-    margin: 5px;
-    text-transform: uppercase;
-}
-
 .btn-discover{ 
     background-color: #f52c2c;  
     color: white;
@@ -72,6 +74,7 @@
     color: black;
 }
 
+/* Service */
 .service-container{
     width: 100%;
     height: 100vh;
@@ -170,6 +173,7 @@
     display: flex;
 }
 
+/* Appointment */
 .call-icon{
     width: 90px;
     height: 90px;
@@ -214,6 +218,7 @@
     width: 20%;
 }
 
+/* Blog */
 .blog-section{
     width: 100%;
     height: 80vh;
@@ -262,6 +267,7 @@
     margin: auto;
 }
 
+/* Footer */
 .footer{
     background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
